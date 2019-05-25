@@ -27,6 +27,7 @@ echo Remounting /system as read-only
 mount -o ro,remount /system
 
 echo Removing temporary directory
-rm -rf ~/twemoji-color-font
+cd ..
+rm -rf twemoji-color-font/
 
 echo Installation complete! Reboot for the changes to take effect
